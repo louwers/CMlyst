@@ -9,7 +9,7 @@ public:
     CMEngine();
     virtual ~CMEngine();
 
-    CMS::Engine *engine = 0;
+    CMS::Engine *engine = nullptr;
 };
 
 #endif // CMENGINE_H

@@ -27,7 +27,7 @@ class CMlyst : public Cutelyst::Application
     Q_OBJECT
     CUTELYST_APPLICATION(IID "org.cutelyst.CMlyst")
 public:
-    Q_INVOKABLE explicit CMlyst(QObject *parent = 0);
+    Q_INVOKABLE explicit CMlyst(QObject *parent = nullptr);
     ~CMlyst();
 
     bool init() override;
